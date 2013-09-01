@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title><%= @title %></title>
+  <link rel="shortcut icon" href="/static/favicon.ico" />
+</head>
+<body>
+	<h1>Success Generated XML!!</h1>
+	<a href="/">Back</a>
+</body>
+</html>

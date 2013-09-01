@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title><%= @title %></title>
+  <link rel="shortcut icon" href="/static/favicon.ico" />
+</head>
+<body>
+  <h3>Welcome to Dynamo!</h3>
+  <ol>
+    <li>Change this template at <code>web/templates/index.html.eex</code></li>
+    <li>Add new routes at <code>web/routers/application_router.ex</code></li>
+    <li>Deploy to production with <code>MIX_ENV=prod mix do compile, server</code></li>
+  </ol>
+  <form action="generate_xml" method="POST">
+  	<label>Xml type</label>
+  	<select name="type_xml" id="type_xml">
+  		<option value="user">Users</option>
+  		<option value="product">Products</option>
+  		<option value="user">Users</option>
+  	</select>
+  	<textarea id="data" name="data"></textarea>
+  	<input type="submit"></input>
+  </form>
+</body>
+</html>

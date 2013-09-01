@@ -1,0 +1,6 @@
+[ "cowboy": {:git, "git://github.com/extend/cowboy.git", "d68b3de9d96dbe0fab56b78cdfeb699055446746", []},
+  "dynamo": {:git, "git://github.com/elixir-lang/dynamo.git", "b2028411346ab95a468c5bda751cc4548c983a1b", []},
+  "hackney": {:git, "git://github.com/benoitc/hackney.git", "5b0f7eb949ebebd6fabfbc4e08a7b7231850606a", []},
+  "mimetypes": {:git, "git://github.com/spawngrid/mimetypes.git", "47d37a977a7d633199822bf6b08353007483d00f", []},
+  "ranch": {:git, "git://github.com/extend/ranch.git", "41705752ffc7e3ecb96eef8374015ead4ca7f699", [{:ref, "0.8.5"}]},
+  "xml_writer": {:git, "git://github.com/manute/XMLWriter.git", "21d5de7f363f67c7ad86c9fc91d15cfd91729f09", []} ]
